@@ -1,0 +1,22 @@
+[
+    {
+        "book1":{
+            "name":"Lord of the rings",
+             "discription":"fantasy book abut a war in the middle earth",
+             "price":{
+                "currency": "ILS",
+                 "amount": "45"
+                }
+              }
+            },
+    {
+        "book2":{
+        "name":"Hary Poter",
+         "discription":"book about teenage wizerds.",
+         "price":{
+            "currency": "ILS",
+            "amount": "60"
+        }
+            }
+        }
+]
