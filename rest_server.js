@@ -10,5 +10,5 @@ app.get('/entities', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`book store app listening on port ${port}`)
+    console.log(`the REST server listening on  http://localhost:${port}/entities`)
 })
