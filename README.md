@@ -11,7 +11,7 @@ If not here is a link to the official node website with a simple guide for how t
 # Run the REST server with node.
 
 We have a simple node.js app that runs a REST server locally.
-The REST server app takes a book list json file called "books_list".json under the Data directory and sends it as a response to clients requests.
+The REST server app takes a book list json file called "books_list.json" under the Data directory and sends it as a response to clients requests.
 
 
 To start the app run the following command:
@@ -26,7 +26,9 @@ Then the app should run over http://localhost:3000/entities
 After running the REST server we can test his response.
 In the project, we have a test file rest_server.test.js that uses the Jest and Axios models to check the responses from our REST server.
 The test composes of two parts:
+
 * Part one - check if the response from the REST API server includes the same entities as the books_list.json file in the Data directory.
+
 * Part two - make a second request for the REST API server and check if the entities properties of the second response match the first response entities' properties.
 
 
