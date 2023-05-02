@@ -4,7 +4,7 @@ This project sets up a REST API server using Node.js and Express, and includes a
 
 # Prerequisites
 
-Before running the project, make sure that Node.js version 18.16.0 is installed on your system. If you don't have Node.js  Node.js version 18.16.0 installed, please follow the instructions on the official Node.js website for your operating system: https://nodejs.org/en/download/.
+Before running the project, make sure that Node.js version 18.16.0 is installed on your system. If you don't have Node.js version 18.16.0 installed, please follow the instructions on the official Node.js website for your operating system: https://nodejs.org/en/download/.
 
 The project also requires npm to be installed on your system. If you don't have npm installed, please follow the instructions on the official npm website: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/
 
