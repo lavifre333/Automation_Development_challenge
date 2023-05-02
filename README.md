@@ -21,9 +21,9 @@ The server should now be running at http://localhost:3000/entities.
 Running tests with Jest
 The project includes a Jest test file called rest_server.test.js, which uses the Jest and Axios libraries to test the responses from the REST server. The test is divided into two parts:
 
-*Part one: check if the response from the REST API server includes the same entities as the books_list.json file in the Data directory.
+* Part one: check if the response from the REST API server includes the same entities as the books_list.json file in the Data directory.
 
-*Part two: make a second request to the REST API server and verify that the properties of the entities in the second response match those of the entities in the first response.
+* Part two: make a second request to the REST API server and verify that the properties of the entities in the second response match those of the entities in the first response.
 
 To run the test, open a new terminal window and navigate to the project's root directory. Then run the following command:
 
