@@ -31,6 +31,7 @@ node rest_server_app.js
 ```
 The server should now be running at http://localhost:3000/entities.
 
+# Run a TEST for the REST server
 
 Running tests with Jest
 The project includes a Jest test file called rest_server.test.js, which uses the Jest and Axios libraries to test the responses from the REST server. The test is divided into two parts:
