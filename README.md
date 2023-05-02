@@ -1,43 +1,35 @@
 # Automation_Development_challenge
 
-In this project, we will set a REST API server with node.js and express.
-Test the response of the REST server with a Jest test file
+This project sets up a REST API server using Node.js and Express, and includes a Jest test file for testing the server's responses.
 
-# Install node.js.
+# Prerequisites
 
-To run the project make sure you have node.js installed over the work environment.
-If not here is a link to the official node website with a simple guide for how to install node.js over your work environment: https://nodejs.org/en/download/package-manager
+Before running the project, make sure that Node.js is installed on your system. If you don't have Node.js installed, please follow the instructions on the official Node.js website for your operating system: https://nodejs.org/en/download/.
 
-# Run the REST server with node.
+# Run the REST server
 
-We have a simple node.js app that runs a REST server locally.
-The REST server app takes a book list json file called "books_list.json" under the Data directory and sends it as a response to clients requests.
+The Node.js app runs a REST server that responds to client requests. The server retrieves a book list JSON file called "books_list.json" from the Data directory and sends it to clients as a response.
 
+To start the server, navigate to the project's root directory and run the following command in a terminal window:
 
-To start the app run the following command:
 ```sh
 node rest_server.js
 ```
-Then the app should run over http://localhost:3000/entities
+The server should now be running at http://localhost:3000/entities.
 
 
-# Run test for the REST server with jest.
+Running tests with Jest
+The project includes a Jest test file called rest_server.test.js, which uses the Jest and Axios libraries to test the responses from the REST server. The test is divided into two parts:
 
-After running the REST server we can test his response.
-In the project, we have a test file rest_server.test.js that uses the Jest and Axios models to check the responses from our REST server.
-The test composes of two parts:
+*Part one: check if the response from the REST API server includes the same entities as the books_list.json file in the Data directory.
 
-* Part one - check if the response from the REST API server includes the same entities as the books_list.json file in the Data directory.
+*Part two: make a second request to the REST API server and verify that the properties of the entities in the second response match those of the entities in the first response.
 
-* Part two - make a second request for the REST API server and check if the entities properties of the second response match the first response entities' properties.
-
-
-To run the test open a new terminal window and run the following command:
-
+To run the test, open a new terminal window and navigate to the project's root directory. Then run the following command:
 
 ```sh
 npm test
 ```
-after running this command you should receive the following output:
+After running this command, you should see the test results in the terminal window.
 
 
