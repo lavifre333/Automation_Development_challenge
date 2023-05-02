@@ -6,6 +6,20 @@ This project sets up a REST API server using Node.js and Express, and includes a
 
 Before running the project, make sure that Node.js is installed on your system. If you don't have Node.js installed, please follow the instructions on the official Node.js website for your operating system: https://nodejs.org/en/download/.
 
+The project also requires npm to be installed on your system. If you don't have npm installed, please follow the instructions on the official npm website: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/
+
+Additionally, the project requires the following packages:
+
+* express version 4.18.2
+* jest version 29.5.0
+* axsion version 4.18.2
+
+To install the required packages, navigate to the project root directory and run the following command:
+
+```sh
+npm install express@4.18.2 jest@29.5.0 axios@4.18.2
+```
+
 # Run the REST server
 
 The Node.js app runs a REST server that responds to client requests. The server retrieves a book list JSON file called "books_list.json" from the Data directory and sends it to clients as a response.
@@ -13,7 +27,7 @@ The Node.js app runs a REST server that responds to client requests. The server 
 To start the server, navigate to the project's root directory and run the following command in a terminal window:
 
 ```sh
-node rest_server.js
+node rest_server_app.js
 ```
 The server should now be running at http://localhost:3000/entities.
 
