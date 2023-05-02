@@ -1,5 +1,5 @@
 {
-  "name": "package_for_rest_server",
+  "name": "package_for_rest_server_app",
   "version": "1.0.0",
   "description": "package for simple node.js rest server",
   "main": "rest_server.js",

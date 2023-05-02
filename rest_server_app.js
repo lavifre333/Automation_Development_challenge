@@ -3,9 +3,9 @@ const app = express()
 const port = 3000
 
 app.get('/entities', (req, res) => {
-    // Read the content of the jeson file
+    // Retrieve the content of the books_list.json file at the Data directory
     const books_store_data = require('./Data/books_list.json')
-    // Send a Jeson response to the client
+    // Send the content of the books_list.json response to the client
     res.json(books_store_data)
 })
 

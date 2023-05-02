@@ -1,8 +1,8 @@
 [
     {
         "book1":{
-            "name":"Lord of the rings",
-             "discription":"fantasy book abut a war in the middle earth",
+            "name":"Lord of the Rings",
+             "discription":"'The Lord of the Rings' is a high fantasy novel written by J.R.R. Tolkien. The story follows a hobbit named Frodo Baggins who is entrusted with the task of destroying the One Ring, an ancient and powerful artifact created by the dark lord Sauron to conquer and enslave Middle-earth. Along with his fellowship of allies, including other hobbits, men, elves, dwarves, and wizards, Frodo embarks on a perilous journey through dangerous lands and battles against evil forces to reach the fiery depths of Mount Doom, where the Ring must be destroyed before it falls back into the hands of Sauron. The novel is widely regarded as a masterpiece of modern literature.",
              "price":{
                 "currency": "ILS",
                  "amount": "45"
@@ -11,8 +11,8 @@
             },
     {
         "book2":{
-        "name":"Hary Poter",
-         "discription":"book about teenage wizerds.",
+        "name":"Harry Potter",
+         "discription":"Harry Potter is a series of seven fantasy novels written by British author J.K. Rowling. The books follow the life of young orphan Harry Potter, who discovers on his eleventh birthday that he is a wizard and attends Hogwarts School of Witchcraft and Wizardry. Along with his friends Ron Weasley and Hermione Granger, Harry learns magic, faces danger, and battles the evil Lord Voldemort. The series has become a cultural phenomenon and has been adapted into successful movies and merchandise.",
          "price":{
             "currency": "ILS",
             "amount": "60"
